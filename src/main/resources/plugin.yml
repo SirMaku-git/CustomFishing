@@ -1,0 +1,24 @@
+name: CustomFishing
+version: '1.0-SNAPSHOT'
+main: com.sirmaku.customFishing.CustomFishing
+api-version: '1.21'
+
+# Tác giả & trang plugin
+author: SirMaku
+website: https://github.com/SirMaku-git/CustomFishing
+softdepend: [ItemsAdder, Oraxen, MMOItems, MoreFish]
+
+commands:
+  cf:
+    description: Lệnh gốc cho CFishing (loot/config/reload)
+    usage: |
+      §6/cf loot <sub> …§7  - Quản lý bảng loot
+      §6/cf config <sub> …§7- Sửa config khi server đang chạy
+      §6/cf reload§7        - Reload toàn bộ
+    aliases: [customfishing]
+    permission: customfishing.admin
+
+permissions:
+  customfishing.admin:
+    description: Quyền quản trị tất cả lệnh CFishing
+    default: op
