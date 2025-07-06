@@ -1,7 +1,5 @@
-<p align="center">
-<img src = "(https://github.com/user-attachments/assets/49fff1c7-79bf-4418-b795-db5a0a10e3ea)" alt = "Logo" width = "200"/>
-  <img src="gif_pixel_art.gif" alt="Pixel Art" width="800"/>
-</p>
+![logo](https://github.com/user-attachments/assets/0aca2cad-c969-49a0-ab2f-0e2531fe0564)
+
 # 🎣 CustomFishing
 
 A custom Minecraft fishing plugin that adds enhanced fishing mechanics, loot drops, and configuration options.
